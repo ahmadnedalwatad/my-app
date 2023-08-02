@@ -36,3 +36,53 @@
     transform: rotate(360deg);
   }
 }
+
+* {
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  grid-template-columns: auto auto;
+  height: 100vh;
+}
+.box1 {
+  background-color: white;
+  padding: 20px;
+}
+.box2 {
+  background-color: white;
+  padding: 20px;
+}
+.box3 {
+  grid-column: span 2;
+  background-color: #435e57;
+  color: white;
+  padding: 20px;
+}
+.box4 {
+  grid-column: span 2;
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  float: right;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Markazi Text", sans-serif;
+}
+p {
+  font-family: "Karla", sans-serif;
+}

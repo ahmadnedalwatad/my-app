@@ -1,7 +1,6 @@
 export default function Nav() {
   return (
-    <>
-      <h1>Nav</h1>
+    <div className="box2">
       <ul>
         <li>
           <a href="https://www.w3schools.com">link 1</a>
@@ -16,6 +15,6 @@ export default function Nav() {
           <a href="https://www.w3schools.com">link 4</a>
         </li>
       </ul>
-    </>
+    </div>
   );
 }

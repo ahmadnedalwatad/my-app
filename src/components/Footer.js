@@ -1,8 +1,7 @@
 export default function Footer() {
   return (
-    <>
-      <h1>Footer</h1>
-      ahmadnedalwatad
-    </>
+    <div className="box4">
+      <p>ahmadnedalwatad</p>
+    </div>
   );
 }

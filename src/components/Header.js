@@ -2,9 +2,8 @@ import logo from "../assets/Logo.svg";
 
 export default function Header() {
   return (
-    <>
-      <h1>Header</h1>
+    <div className="box1">
       <img src={logo} alt="logo" />
-    </>
+    </div>
   );
 }
