@@ -1,12 +1,10 @@
 import Main from "./Main";
-import Footer from "./Footer";
 
 function HomePage() {
   return (
-    <>
+    <div className="box3">
       <Main />
-      <Footer />
-    </>
+    </div>
   );
 }
 

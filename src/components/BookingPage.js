@@ -16,10 +16,10 @@ function BookingPage() {
   const [availableTimes, dispatch] = useReducer(updateTimes, initializeTimes());
 
   return (
-    <>
-      <h1>welcome to my booking page</h1>
+    <div className="box3">
+      <h1 style={{ color: "#f4ce14" }}>welcome to my booking page</h1>
       <BookingForm data={availableTimes} />
-    </>
+    </div>
   );
 }
 

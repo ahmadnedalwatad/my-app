@@ -1,6 +1,6 @@
 export default function Main() {
   return (
-    <div className="box3">
+    <div>
       <h1 style={{ color: "#f4ce14" }}>Main</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

@@ -13,9 +13,24 @@ function BookingForm(props) {
     return <option>{time}</option>;
   });
 
+  const getIsFormValid = () => {
+    return date && time && guests;
+  };
+
+  const clearForm = () => {
+    setDate("");
+    setTime("");
+    setGuests("");
+    setOccasion({
+      value: "",
+      isTouched: false,
+    });
+  };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     alert("Account created!");
+    clearForm();
   };
 
   return (
@@ -77,7 +92,9 @@ function BookingForm(props) {
         </div>
 
         <div>
-          <button type="submit" value="Make Your reservation"></button>
+          <button type="submit" disabled={!getIsFormValid()}>
+            Submit
+          </button>
         </div>
       </fieldset>
     </form>
